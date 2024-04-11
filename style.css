@@ -1,5 +1,6 @@
 body{
-    background-color: #ff7722; 
+    background-color: whitesmoke; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -7,6 +8,19 @@ h1{
    margin-top: 30px;
    font-size: 2rem;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+}
+.quote{
+    text-align: center;
+   margin-top: 30px;
+}
+.author{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: small ;
 }
 form{
     display: flex;
@@ -22,24 +36,25 @@ form input {
     border-radius: 50px;
     font-size: 1rem;
     font-weight: 300;
-    background-color: #FFF1E9;
+    background-color: 8D7F77;
  }
  form button{
      margin-top: 45px;
      border: none;
      outline: none;
-    background-color: blue;
+    background-color: #ff7722;
      padding: 15px;
      border-radius: 200px;
      margin-left: 10px;
      font-size: medium;
- }
- #wrn{
+}
+.text{
     text-align: center;
-    color: red;
-    display: none;
-    margin: 30px;
- }
+    margin-top: 30px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
 #drink{
   display: flex;
     justify-content: space-between ;
@@ -47,22 +62,23 @@ form input {
     max-width: 1200px;
     margin: 0 auto;
  }
-.drink-item{
+ .drink-item{
     margin-bottom: 60px;
     width: 30%;
-    height:10%;
-    background-color: #FFF1E9;
+    height:30%;
+    background-color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0 0 6px rgba(0,0,0.2);
     overflow: hidden;
 }
 .drink-item img{
     width: 100%;
-    height: 100%;
+    height: 40%;
     object-fit: cover;
-   
 }
-.drink-item h4{
+
+
+.drink-item h5{
     text-align: center;
     font-size: 20px;
     display: block;
@@ -72,7 +88,7 @@ form input {
     text-align: center;
     text-decoration: none;
     color: #FFF1E9;
-    background: crimson;
+    background: #ff7722;
     font-weight: 450;
     padding: 0.5rem 0;
     display: block;
@@ -80,5 +96,57 @@ form input {
     margin: 1rem auto;
     border-radius: 2rem;
 }
- 
+.cocktail-details{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #FFF1E9;
+    background: #ff7722;
+    border-radius: 8px;
+    width: 80%;
+    height: 80%;
+    overflow-y: scroll;
+    display: none;
+    padding: 2rem 0;
+
+}
+.recipe-close-btn{
+   position: absolute;
+   right: 2rem;
+   top: 2rem;
+   font-size: 1.8rem;
+   background: #FFF1E9;
+   border: none;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+.recipe-title{
+    text-align: center;
+}
+.recipe-category{
+    
+    text-align: center;
+    font-weight: 600;
+    
+}
+.recipe-instruct{
+    text-align: center;
+}
+.recipe-drink-img{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+
+} 
+.cocktail-details-content{
+    display: block;
+}
   
