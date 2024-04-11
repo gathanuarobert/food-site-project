@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Food and Drink Site</title>
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="contaner">
-        <h1 class="site">Margarita Recipes</h1>
+        <h1 class="site">Find your Favourite</h1>
+        <blockquote class="quote">In every cocktail, flavors dance harmoniously, creating a symphony of taste that delights the senses.</blockquote>
+        <h10 class="author">(Luis van-derHecken)</h10>
         <form id="search-Box">
-            <input type="text" id="search-text" placeholder="search margaritas...">
+            <input type="text" id="search-text" placeholder="search ...">
             <button onclick="click" type="button" id="search">search</button>
         </form>
 
-        <div id="search-result">
+        <h2 class="text">Your Search Results:</h2>
+
+        <div class="search-result">
             <div id="drink">
-                 <div class="drink-item"> 
+                 <!-- <div class="drink-item">  
                     <div class="image">
                        <img class="drink-image"
                         src="https://img.freepik.com/free-photo/selection-various-cocktails-table_140725-2909.jpg?t=st=1712818480~exp=1712822080~hmac=39be166bb87404aa87f2f68d1a17af31cfddc0e68ae24c23fe2c28ba12755be7&w=740"
@@ -55,7 +59,7 @@
                     </div>
                     
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -70,6 +74,14 @@
         <div class="cocktail-details-content">
             <h2 class="recipe-title">Cocktail Name Here</h2>
             <p class="recipe-category">Category Name</p>
+            <div class="recipe-instruct">
+                <h3>Instructions:</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellat natus, dicta et blanditiis laboriosam?</p>
+            </div>
+            <div class="recipe-drink-img">
+                <img src="https://img.freepik.com/free-photo/selection-various-cocktails-table_140725-2909.jpg?t=st=1712818480~exp=1712822080~hmac=39be166bb87404aa87f2f68d1a17af31cfddc0e68ae24c23fe2c28ba12755be7&w=740" alt="..">
+            </div>
+
         </div>
     </div>
     </div>
